@@ -159,7 +159,3 @@ Many state-of-the-art approaches combine multiple reasoning techniques:
   year={2025}
 }
 ```
-
-## Paper
-
-The full paper is available as [Code_Reasoning_for_Code_Tasks__A_Survey__revision_.pdf](Code_Reasoning_for_Code_Tasks__A_Survey__revision_.pdf)
