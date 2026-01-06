@@ -131,12 +131,17 @@ Many state-of-the-art approaches combine multiple reasoning techniques:
 
 ## Key Findings
 
-1. **Structure-aware CoT > Plan-based CoT**: Code structure-based prompting techniques outperform plan-based approaches for code generation
-2. **Modularity helps**: Modular CoT techniques dominate other structured and plan-based approaches
-3. **Execution-aware strategies win**: Self-refinement with execution feedback consistently outperforms CoT-only methods
-4. **Inference scaling is powerful**: Approaches integrating inference scaling outperform CoT-dominant strategies
-5. **Agents dominate**: Agentic approaches that combine multiple techniques achieve state-of-the-art performance
-6. **Search amplifies agents**: Combining inference scaling search with agents yields the best results
+**Observation 1:** Structure-aware CoT strategies tend to outperform planning-based CoT strategies on code generation tasks.
+
+**Observation 2:** Modular CoT techniques tend to outperform other structure-aware and plan-based CoT approaches on code generation tasks.
+
+**Observation 3:** Execution-aware strategies tend to outperform Code CoT based methods on code generation tasks.
+
+**Observation 4:** Approaches that integrate inference scaling outperform CoT-dominant strategies on code generation. Inference scaling can also outperform self-refinement based strategies.
+
+**Observation 5:** Orchestrating multiple reasoning techniques through agentic scaffolding tends to outperform single-strategy approaches on code generation tasks.
+
+**Observation 6:** Integrating search-based inference scaling within agentic frameworks tends to achieve state-of-the-art performance across diverse tasks, from code generation to issue resolution.
 
 ## Call to Actions (Future Directions)
 
